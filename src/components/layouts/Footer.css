@@ -1,0 +1,25 @@
+footer {
+    padding:10px;
+    display: flex;
+    place-items: center;
+    background-color: #6c6c6c;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+  }
+  footer div {
+      font-size: 70%;
+      text-decoration: none;
+      color: #ffffff;
+  }
+  footer div a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  footer div a:hover {
+    color: #222222;
+  }
